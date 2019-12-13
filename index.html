@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <title>Danny Calise</title>
 </head>
+
 <body>
     <nav id="header" class="nav navbar-nav">
         <a id="logo-link" href="http://dannycalise.com">
             <img id="dc-logo" class="navbar-brand" src="images/DC logo.png">
         </a>
-        <a id="bar-logo" class="btn icon-btn">
-            <i id="bars" class="fa fa-bars"></i>
-        </a>
+        <div id="right-header">
+            <h2 id="port-btn">Portfolio</h2>
+            <a id="bar-logo" class="btn icon-btn">
+                <i id="bars" class="fa fa-bars"></i>
+            </a>
+        </div>
     </nav>
     <!-- Hero Image -->
     <section class="hero" style="background-image: url(images/Calise-cartoon.png)"></section>
@@ -81,8 +88,29 @@
             </div>
         </div>
     </div>
+    <div class="hidden" id="port-bg" style="background-image: url(images/dcbackground.jpg)">
+        <div class="container-fluid port-container"  id="portfolio">
+            <div class="row port-row">
+                <div id="gatsby" class="col-xs-5 port-col">
+                    <img class="port-images" src="images/gatsby.gif">
+                </div>
+                <div id="plans" class="col-xs-5 port-col">
+                    <img class="port-images" src="images/yourplans.gif">
+                </div>
+            </div>
+            <div class="row port-row">
+                <div id="trivia" class="col-xs-5 port-col">
+                    <img class="port-images" src="images/trivia.gif">
+                </div>
+                <div id="personal" class="col-xs-5 port-col">
+                    <img class="port-images" src="images/personalwebpage.gif">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

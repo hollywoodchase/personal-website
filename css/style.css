@@ -1,6 +1,7 @@
 .nav {
   height: 12vh;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  margin-bottom: 10px; }
 
 #logo-link {
   width: 5em;
@@ -12,16 +13,33 @@
   max-height: 100%; }
 
 #bar-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: .75em;
   margin-right: .75em;
-  font-size: 2em;
-  align-self: flex-end; }
+  margin-left: .75em;
+  font-size: 2em; }
   #bar-logo:hover {
     background: #9BFAFC;
     color: white; }
+
+#header {
+  display: flex;
+  width: 100vw; }
+
+#right-header {
+  display: flex;
+  margin-top: .75em;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+  text-align: center; }
+
+#right-header > h2 {
+  font-family: 'Marck Script', cursive;
+  font-size: 45px; }
+
+#port-btn {
+  display: flex;
+  cursor: pointer;
+  margin-top: 10px; }
 
 .hidden {
   display: none; }
@@ -38,6 +56,46 @@
   background-position: center center;
   animation-name: brighten;
   animation-duration: 1s; }
+
+#port-bg {
+  background-size: contain;
+  background-position: center center; }
+
+#portfolio {
+  display: flex;
+  text-align: center;
+  animation-name: brighten;
+  animation-duration: 1s; }
+
+.port-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 89vh;
+  justify-content: space-between; }
+
+.port-row {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between; }
+
+.port-col {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.port-images {
+  opacity: 1;
+  display: flex;
+  margin-left: 0;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: opacity 1s;
+  width: 35vw;
+  height: 44.5vh; }
+  .port-images:hover {
+    opacity: .1; }
 
 .row {
   display: flex;
@@ -78,7 +136,8 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  object-fit: fill; }
+  object-fit: fill;
+  padding: 0; }
 
 .tile-link {
   display: flex;
@@ -113,8 +172,5 @@
 
 .not-faded {
   opacity: 1; }
-
-.col-sm-4 {
-  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

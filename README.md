@@ -4,7 +4,7 @@ This website is the one stop shop for the internet presence of Danny Calise, eat
 
 The site employs jquery and SASS, as well as CSS animations, bootstrap, font awesome and flexbox. 
 
-The link to the dpeloyed site is: https://hollywoodchase.github.io/personal-website/
+The link to the deployed site is: https://hollywoodchase.github.io/personal-website/
 
 Enjoy! 
 
