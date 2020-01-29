@@ -50,6 +50,34 @@ $redborder: 2px solid red;
     cursor: pointer;
     margin-top: 10px;
 }
+.port-btm-left-icons {
+    position: absolute;
+    opacity: .75;
+    bottom: 0;
+    width: 6em;
+    left: 0;
+}
+.port-btm-right-icons {
+    position: absolute;
+    opacity: .75;
+    bottom: 0;
+    width: 6em;
+    right: 0;
+}
+.port-top-left-icons {
+    position: absolute;
+    opacity: .75;
+    width: 6em;
+    top: 5em;
+    left: 0;
+}
+.port-top-right-icons {
+    position: absolute;
+    opacity: .75;
+    width: 6em;
+    top: 5em;
+    right: 0;
+}
 .hidden {
     display: none;
 }
@@ -117,7 +145,12 @@ $redborder: 2px solid red;
         opacity: .1;
     }
 }
-
+.port-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
 // Tiles
 .row {
     // border: $border;
