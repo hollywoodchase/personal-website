@@ -114,6 +114,12 @@
   justify-content: center;
   margin: 0; }
 
+.port-top {
+  margin-bottom: 0px; }
+
+.port-bottom {
+  margin-top: 0px; }
+
 .port-images {
   opacity: 1;
   display: flex;
