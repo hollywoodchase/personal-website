@@ -146,8 +146,8 @@ $redborder: 2px solid red;
     border-radius: 10px;
     border: 2px solid black;
     transition: opacity 1s;
-    width: 35vw;
-    height: 44.5vh;
+    // width: 50%;
+    // height: 44.5vh;
     &:hover {
         opacity: .1;
     }
@@ -156,7 +156,7 @@ $redborder: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 44vh;
+    // height: 44vh;
 }
 // Tiles
 .row {

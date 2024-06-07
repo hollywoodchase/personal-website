@@ -87,7 +87,9 @@
 
 #port-bg {
   background-size: contain;
-  background-position: center center; }
+  background-position: center center; 
+  height: 89vh;
+}
 
 #portfolio {
   display: flex;
@@ -96,11 +98,8 @@
   animation-duration: 1s; }
 
 .port-container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 89vh;
-  justify-content: space-between; }
+  /* border: 2px solid pink; */
+  }
 
 .port-row {
   width: 100vw;
@@ -125,20 +124,42 @@
   border: 2px solid black;
   transition: opacity 1s;
   width: 35vw;
-  height: 44.5vh; }
-  .port-images:hover {
-    opacity: .1; }
+  /* height: 44.5vh; */
+}
+  .portfolio-img:hover {
+    border: 5px dotted orange; 
+  }
 
 .port-link {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 44vh; }
-
+.portfolio-img {
+  transition: border 0.5s;
+  width: 50%;
+}
+.github-img {
+  width: 50%;
+}
+.links-row {
+  /* border: 2px solid red; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+.white-text {
+  color: white;
+}
 .row {
   display: flex;
   flex-flow: row; }
-
+.links-col {
+  /* border: 2px solid yellow; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #tiles {
   animation-name: hide;
   animation-duration: .75s; }
